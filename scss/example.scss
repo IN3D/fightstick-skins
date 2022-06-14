@@ -1,0 +1,35 @@
+// @use "arcade_button";
+@import "./arcade_button.scss";
+
+.controller.fight-stick {
+  background: none;
+
+  .arrows { display: none; }
+  .quadrant { display: none; }
+
+  .abxy {
+    .button {
+      &.a { @include arcade-button(green); }
+      &.b { @include arcade-button(red); }
+      &.x { @include arcade-button(blue); }
+      &.y { @include arcade-button(yellow); }
+    }
+  }
+
+  .triggers {
+    .trigger-button {
+      &.left { @include arcade-button(gray); }
+      &.right { @include arcade-button(gray); }
+    }
+  }
+
+  .bumpers {
+    .bumper {
+      &.left { @include arcade-button(gray); }
+      &.right { @include arcade-button(gray); }
+    }
+  }
+}
+
+
+

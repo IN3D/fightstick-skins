@@ -1,0 +1,15 @@
+{
+  "name": "fightstick-skins",
+  "version": "0.1.0",
+  "description": "CSS Skins for OBS arcadestick overlays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"What are you trying to test exactly??\" && exit 0",
+    "build": "sass --no-source-map scss:out"
+  },
+  "author": "Eric Hopkins",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}
