@@ -1,4 +1,3 @@
-// @use "arcade_button";
 @import "./arcade_button.scss";
 
 .controller.fight-stick {
@@ -17,6 +16,7 @@
   }
 
   .triggers {
+    right: 20px !important;
     .trigger-button {
       &.left { @include arcade-button(gray); }
       &.right { @include arcade-button(gray); }
@@ -24,6 +24,7 @@
   }
 
   .bumpers {
+    right: 20px !important;
     .bumper {
       &.left { @include arcade-button(gray); }
       &.right { @include arcade-button(gray); }
