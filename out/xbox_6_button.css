@@ -140,7 +140,7 @@
   border-width: 0;
 }
 .controller.fight-stick .triggers {
-  right: 20px !important;
+  right: 27px !important;
 }
 .controller.fight-stick .triggers .trigger-button.left {
   display: none;
@@ -179,7 +179,7 @@
   border-width: 0;
 }
 .controller.fight-stick .bumpers {
-  right: 20px !important;
+  right: 27px !important;
 }
 .controller.fight-stick .bumpers .bumper.left {
   display: none;
