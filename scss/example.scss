@@ -26,11 +26,8 @@
   .bumpers {
     right: 20px !important;
     .bumper {
-      &.left { @include arcade-button(gray); }
+      &.left { @include arcade-button(#505050); }
       &.right { @include arcade-button(gray); }
     }
   }
 }
-
-
-
