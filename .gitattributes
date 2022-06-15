@@ -1,1 +1,2 @@
 out/*.css linguist-generated
+out/**/*.css linguist-generated
