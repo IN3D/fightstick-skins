@@ -20,7 +20,7 @@
     right: $bumper-trigger-space !important;
     .trigger-button {
       &.left { display: none; }
-      &.right { @include arcade-button(#808080); }
+      &.right { @include arcade-button($default-gray); }
     }
   }
 
@@ -28,7 +28,7 @@
     right: $bumper-trigger-space !important;
     .bumper {
       &.left { display: none; }
-      &.right { @include arcade-button(#808080); }
+      &.right { @include arcade-button($default-gray); }
     }
   }
 }

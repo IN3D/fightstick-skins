@@ -19,16 +19,16 @@
   .triggers { 
     right: $bumper-trigger-space !important;
     .trigger-button {
-      &.left { @include arcade-button(#d6d6d6); }
-      &.right { @include arcade-button(#808080); }
+      &.left { @include arcade-button($default-white); }
+      &.right { @include arcade-button($default-gray); }
     }
   }
 
   .bumpers {
     right: $bumper-trigger-space !important;
     .bumper {
-      &.left { @include arcade-button(#d6d6d6); }
-      &.right { @include arcade-button(#808080); }
+      &.left { @include arcade-button($default-white); }
+      &.right { @include arcade-button($default-gray); }
     }
   }
 }
