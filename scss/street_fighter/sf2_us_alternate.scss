@@ -1,0 +1,34 @@
+@import "../arcade_button.scss";
+@import "../globals.scss";
+
+.controller.fight-stick {
+  background: none;
+
+  .arrows { display: none; }
+  .quadrant { display: none; }
+
+  .abxy {
+    .button {
+      &.a { @include arcade-button(#e2350a); } // short
+      &.b { @include arcade-button(#3368cc); } // forward
+      &.x { @include arcade-button(#e2350a); } // jab
+      &.y { @include arcade-button(#3368cc); } // strong
+    }
+  }
+
+  .triggers { 
+    right: $bumper-trigger-space !important;
+    .trigger-button {
+      &.left { display: none; }
+      &.right { @include arcade-button($default-white); } // roundhouse
+    }
+  }
+
+  .bumpers {
+    right: $bumper-trigger-space !important;
+    .bumper {
+      &.left { display: none; }
+      &.right { @include arcade-button($default-white); } // fierce
+    }
+  }
+}
