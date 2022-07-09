@@ -11,7 +11,7 @@ buttons = {
     "roman_cancel": "#e23f8e",
     "faultless_defense": "#7ef2a7",
     "taunt": "#dfd260",
-    "dash": generic_buttons["gray"],
+    "dash": generic_buttons["white"],
     "burst": "#7e2a28",
 }
 
