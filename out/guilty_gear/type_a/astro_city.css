@@ -121,14 +121,14 @@
   border-width: 0;
 }
 .controller.fight-stick .triggers {
-  right: 53px;
-  top: 82px;
+  right: 51px;
+  top: 257px;
 }
 .controller.fight-stick .triggers .trigger-button { /* anchor */ }
 .controller.fight-stick .triggers .trigger-button.left {
   display: none;
   bottom: -6px;
-  right: 5px;
+  right: 37px;
 }
 .controller.fight-stick .triggers .trigger-button.right {
   width: 135px;
@@ -171,7 +171,7 @@
 .controller.fight-stick .bumpers .bumper.left {
   display: none;
   bottom: -6px;
-  right: 37px;
+  right: 5px;
 }
 .controller.fight-stick .bumpers .bumper.right {
   width: 135px;

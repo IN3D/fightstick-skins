@@ -151,8 +151,8 @@
   border-width: 0;
 }
 .controller.fight-stick .triggers {
-  right: 53px;
-  top: 82px;
+  right: 51px;
+  top: 257px;
 }
 .controller.fight-stick .triggers .trigger-button { /* anchor */ }
 .controller.fight-stick .triggers .trigger-button.left {
@@ -165,7 +165,7 @@
   transition: box-shadow 200ms;
   box-shadow: inset 0 4.21875px 0 #8d8d8d, inset 0 -4.21875px 0 #737373, inset 0 0 0 4.21875px #787878, inset 0 0 0 11.25px #808080, inset 0 0 0 13.5px #4d4d4d, inset 0 0 0 14.6739130435px #010101, inset 0 0 0 18px rgba(166, 166, 166, 0.7), inset 0 0 0 24.5454545455px #808080, inset 0 54px 18px #737373, inset 0 0 13.5px 22.5px #676767, 0 6.75px 0 rgba(0, 0, 0, 0.3);
   bottom: -6px;
-  right: 5px;
+  right: 37px;
 }
 .controller.fight-stick .triggers .trigger-button.left:after {
   content: "";
@@ -238,7 +238,7 @@
   transition: box-shadow 200ms;
   box-shadow: inset 0 4.21875px 0 #8d8d8d, inset 0 -4.21875px 0 #737373, inset 0 0 0 4.21875px #787878, inset 0 0 0 11.25px #808080, inset 0 0 0 13.5px #4d4d4d, inset 0 0 0 14.6739130435px #010101, inset 0 0 0 18px rgba(166, 166, 166, 0.7), inset 0 0 0 24.5454545455px #808080, inset 0 54px 18px #737373, inset 0 0 13.5px 22.5px #676767, 0 6.75px 0 rgba(0, 0, 0, 0.3);
   bottom: -6px;
-  right: 37px;
+  right: 5px;
 }
 .controller.fight-stick .bumpers .bumper.left:after {
   content: "";
