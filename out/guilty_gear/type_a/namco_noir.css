@@ -50,7 +50,7 @@
 .controller.fight-stick .abxy .button.b {
   display: none;
   right: 8px;
-  top: 49px;
+  bottom: 49px;
 }
 .controller.fight-stick .abxy .button.x {
   width: 135px;

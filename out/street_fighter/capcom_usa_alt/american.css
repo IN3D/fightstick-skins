@@ -57,7 +57,7 @@
   transition: box-shadow 200ms;
   box-shadow: inset 0 4.21875px 0 #4777d1, inset 0 -4.21875px 0 #2e5eb8, inset 0 0 0 4.21875px #3062c0, inset 0 0 0 11.25px #3368cc, inset 0 0 0 13.5px #1f3e7a, inset 0 0 0 14.6739130435px black, inset 0 0 0 18px rgba(112, 149, 219, 0.7), inset 0 0 0 24.5454545455px #3368cc, inset 0 54px 18px #2e5eb8, inset 0 0 13.5px 22.5px #2953a3, 0 6.75px 0 rgba(0, 0, 0, 0.3);
   right: -24px;
-  top: 18px;
+  bottom: 18px;
 }
 .controller.fight-stick .abxy .button.b:after {
   content: "";

@@ -21,7 +21,7 @@ template = """// {name} - {layout}
             &.b {{
                 {button_b}
                 right: ${layout}-b-right;
-                top: ${layout}-b-bottom;
+                bottom: ${layout}-b-bottom;
             }}
             &.x {{ {button_x} }} /* anchor point */
             &.y {{
