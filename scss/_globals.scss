@@ -1,3 +1,245 @@
 $bumper-trigger-space: 27px;
 $default-white: #d6d6d6;
 $default-gray: #808080;
+
+// =================================================================
+// layout placements
+// =================================================================
+
+// American ========================================================
+$american-abxy-bottom: 195px;
+$american-abxy-left: 463px;
+$american-a-bottom: 18px;
+$american-a-left: 33px;
+$american-b-bottom: 18px;
+$american-b-right: -24px;
+$american-y-top: 65px;
+$american-y-right: -24px;
+$american-triggers-top: 186px;
+$american-triggers-right: -31px;
+$american-l-trigger-bottom: inherit;
+$american-l-trigger-right: inherit;
+$american-bumpers-right: 0px;
+$american-bumpers-top: 25px;
+$american-l-bumper-bottom: inherit;
+$american-l-bumper-right: inherit;
+$american-fstick-top: 68px;
+$american-fstick-left: 41px;
+
+// Astro City ======================================================
+$astro-city-abxy-bottom: 111px;
+$astro-city-abxy-left: 430px;
+$astro-city-a-bottom: -6px;
+$astro-city-a-left: 1px;
+$astro-city-b-bottom: 58px;
+$astro-city-b-right: 24px;
+$astro-city-y-top: 2px;
+$astro-city-y-right: -8px;
+$astro-city-triggers-top: 82px;
+$astro-city-triggers-right: 53px;
+$astro-city-l-trigger-bottom: -6px;
+$astro-city-l-trigger-right: 5px;
+$astro-city-bumpers-right: 53px;
+$astro-city-bumpers-top: 82px;
+$astro-city-l-bumper-bottom: -6px;
+$astro-city-l-bumper-right: 37px;
+$astro-city-fstick-top: 187px;
+$astro-city-fstick-left: 120px;
+
+// Cluster Grid ====================================================
+$cluster-abxy-bottom: 195px;
+$cluster-abxy-left: 428px;
+$cluster-a-bottom: 12px;
+$cluster-a-left: 33px;
+$cluster-b-bottom: 12px;
+$cluster-b-right: -15px;
+$cluster-y-top: 66px;
+$cluster-y-right: -15px;
+$cluster-triggers-top: 192px;
+$cluster-triggers-right: 21px;
+$cluster-l-trigger-bottom: 63px;
+$cluster-l-trigger-right: 34px;
+$cluster-bumpers-right: 53px;
+$cluster-bumpers-top: 35px;
+$cluster-l-bumper-bottom: 63px;
+$cluster-l-bumper-right: 2px;
+$cluster-fstick-top: 71px;
+$cluster-fstick-left: 4px;
+
+// Hori Slanted ====================================================
+$hori-slanted-abxy-bottom: 112px;
+$hori-slanted-abxy-left: 442px;
+$hori-slanted-a-bottom: 8px;
+$hori-slanted-a-left: 33px;
+$hori-slanted-b-bottom: 89px;
+$hori-slanted-b-right: 2px;
+$hori-slanted-y-top: -15px;
+$hori-slanted-y-right: 2px;
+$hori-slanted-triggers-top: 259px;
+$hori-slanted-triggers-right: 29px;
+$hori-slanted-l-trigger-bottom: 23px;
+$hori-slanted-l-trigger-right: 33px;
+$hori-slanted-bumpers-right: 55px;
+$hori-slanted-bumpers-top: 78px;
+$hori-slanted-l-bumper-bottom: 23px;
+$hori-slanted-l-bumper-right: 2px;
+$hori-slanted-fstick-top: 155px;
+$hori-slanted-fstick-left: 5px;
+
+// Hori Transitional ===============================================
+$hori-transitional-abxy-bottom: 69px;
+$hori-transitional-abxy-left: 431px;
+$hori-transitional-a-bottom: 6px;
+$hori-transitional-a-left: 33px;
+$hori-transitional-b-bottom: 88px;
+$hori-transitional-b-right: 0px;
+$hori-transitional-y-top: -16px;
+$hori-transitional-y-right: 1px;
+$hori-transitional-triggers-top: 202px;
+$hori-transitional-triggers-right: 31px;
+$hori-transitional-l-trigger-bottom: 63px;
+$hori-transitional-l-trigger-right: 27px;
+$hori-transitional-bumpers-right: 62px;
+$hori-transitional-bumpers-top: 38px;
+$hori-transitional-l-bumper-bottom: 63px;
+$hori-transitional-l-bumper-right: -4px;
+$hori-transitional-fstick-top: 159px;
+$hori-transitional-fstick-left: 131px;
+
+// Incline =========================================================
+$incline-abxy-bottom: 68px;
+$incline-abxy-left: 440px;
+$incline-a-bottom: 8px;
+$incline-a-left: 33px;
+$incline-b-bottom: 70px;
+$incline-b-right: -6px;
+$incline-y-top: 4px;
+$incline-y-right: -6px;
+$incline-triggers-top: 198px;
+$incline-triggers-right: 27px;
+$incline-l-trigger-bottom: 63px;
+$incline-l-trigger-right: 30px;
+$incline-bumpers-right: 58px;
+$incline-bumpers-top: 37px;
+$incline-l-bumper-bottom: 63px;
+$incline-l-bumper-right: -1px;
+$incline-fstick-top: 155px;
+$incline-fstick-left: 5px;
+
+// Lindbergh =======================================================
+$lindbergh-abxy-bottom: 112px;
+$lindbergh-abxy-left: 442px;
+$lindbergh-a-bottom: 8px;
+$lindbergh-a-left: 33px;
+$lindbergh-b-bottom: 89px;
+$lindbergh-b-right: 2px;
+$lindbergh-y-top: -15px;
+$lindbergh-y-right: 2px;
+$lindbergh-triggers-top: 239px;
+$lindbergh-triggers-right: 24px;
+$lindbergh-l-trigger-bottom: 23px;
+$lindbergh-l-trigger-right: 33px;
+$lindbergh-bumpers-right: 55px;
+$lindbergh-bumpers-top: 77px;
+$lindbergh-l-bumper-bottom: 22px;
+$lindbergh-l-bumper-right: 2px;
+$lindbergh-fstick-top: 155px;
+$lindbergh-fstick-left: 6px;
+
+// Namco Noir ======================================================
+$noir-abxy-bottom: 112px;
+$noir-abxy-left: 442px;
+$noir-a-bottom: -6px;
+$noir-a-left: 18px;
+$noir-b-bottom: 49px;
+$noir-b-right: 8px;
+$noir-y-top: 12px;
+$noir-y-right: -8px;
+$noir-triggers-top: 259px;
+$noir-triggers-right: 29px;
+$noir-l-trigger-bottom: 13px;
+$noir-l-trigger-right: 33px;
+$noir-bumpers-right: 44px;
+$noir-bumpers-top: 84px;
+$noir-l-bumper-bottom: 13px;
+$noir-l-bumper-right: 2px;
+$noir-fstick-top: 157px;
+$noir-fstick-left: 42px;
+
+// Sega Player 2 ===================================================
+$sega-p2-abxy-bottom: 100px;
+$sega-p2-abxy-left: 428px;
+$sega-p2-a-bottom: -9px;
+$sega-p2-a-left: 33px;
+$sega-p2-b-bottom: 82px;
+$sega-p2-b-right: 2px;
+$sega-p2-y-top: -26px;
+$sega-p2-y-right: 2px;
+$sega-p2-triggers-top: 216px;
+$sega-p2-triggers-right: 30px;
+$sega-p2-l-trigger-bottom: 21px;
+$sega-p2-l-trigger-right: 29px;
+$sega-p2-bumpers-right: 61px;
+$sega-p2-bumpers-top: 38px;
+$sega-p2-l-bumper-bottom: 22px;
+$sega-p2-l-bumper-right: -3px;
+$sega-p2-fstick-top: 174px;
+$sega-p2-fstick-left: 130px;
+
+// Viewlix =========================================================
+$viewlix-abxy-bottom: 136px;
+$viewlix-abxy-left: 449px;
+$viewlix-a-bottom: 5px;
+$viewlix-a-left: 3px;
+$viewlix-b-bottom: 64px;
+$viewlix-b-right: 30px;
+$viewlix-y-top: 6px;
+$viewlix-y-right: 0px;
+$viewlix-triggers-top: 199px;
+$viewlix-triggers-right: 48px;
+$viewlix-l-trigger-bottom: 63px;
+$viewlix-l-trigger-right: 36px;
+$viewlix-bumpers-right: 50px;
+$viewlix-bumpers-top: 34px;
+$viewlix-l-bumper-bottom: 63px;
+$viewlix-l-bumper-right: 4px;
+$viewlix-fstick-top: 155px;
+$viewlix-fstick-left: 3px;
+
+// TODO: Not implemented yet
+// NeoGeo MVS: Slanted =============================================
+$mvs-slanted-abxy-bottom: inherit;
+$mvs-slanted-abxy-left: inherit;
+$mvs-slanted-a-bottom: inherit;
+$mvs-slanted-a-left: inherit;
+$mvs-slanted-b-bottom: inherit;
+$mvs-slanted-b-right: inherit;
+$mvs-slanted-y-top: inherit;
+$mvs-slanted-y-right: inherit;
+$mvs-slanted-triggers-top: inherit;
+$mvs-slanted-triggers-right: inherit;
+$mvs-slanted-l-trigger-bottom: inherit;
+$mvs-slanted-l-trigger-right: inherit;
+$mvs-slanted-bumpers-right: inherit;
+$mvs-slanted-bumpers-top: inherit;
+$mvs-slanted-l-bumper-bottom: inherit;
+$mvs-slanted-l-bumper-right: inherit;
+
+// NeoGeo MVS: Straight ============================================
+$mvs-straight-abxy-bottom: inherit;
+$mvs-straight-abxy-left: inherit;
+$mvs-straight-a-bottom: inherit;
+$mvs-straight-a-left: inherit;
+$mvs-straight-b-bottom: inherit;
+$mvs-straight-b-right: inherit;
+$mvs-straight-y-top: inherit;
+$mvs-straight-y-right: inherit;
+$mvs-straight-triggers-top: inherit;
+$mvs-straight-triggers-right: inherit;
+$mvs-straight-l-trigger-bottom: inherit;
+$mvs-straight-l-trigger-right: inherit;
+$mvs-straight-bumpers-right: inherit;
+$mvs-straight-bumpers-top: inherit;
+$mvs-straight-l-bumper-bottom: inherit;
+$mvs-straight-l-bumper-right: inherit;
+

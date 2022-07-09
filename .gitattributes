@@ -1,2 +1,4 @@
 out/*.css linguist-generated
 out/**/*.css linguist-generated
+scss/*.scss linguist-generated
+scss/**/*.scss linguist-generated

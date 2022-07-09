@@ -1,2 +1,12 @@
+# === Python
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Project
+
 node_modules/*
 out/*.css.map
+scss/*
