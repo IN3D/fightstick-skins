@@ -1,0 +1,88 @@
+from layouts import remotely_modern, only_classic, all_non_specific_layouts
+from skins.colors import generic_buttons, capcom_classic
+
+alt_buttons = {
+    "yolk_yellow": "#ffe056",
+    "mint_green": "#50b27a",
+    "sky_blue": "#2e90db",
+}
+
+marvel = {
+    "cota": { # rgb
+        "button_a": capcom_classic["red"],
+        "button_b": capcom_classic["green"],
+        "button_x": capcom_classic["red"],
+        "button_y": capcom_classic["green"],
+        "l_bumper": None,
+        "r_bumper": capcom_classic["blue"],
+        "l_trigger": None,
+        "r_trigger": capcom_classic["blue"],
+        "variants": only_classic,
+    },
+    "cota_alt": { # rbg
+        "button_a": capcom_classic["red"],
+        "button_b": capcom_classic["blue"],
+        "button_x": capcom_classic["red"],
+        "button_y": capcom_classic["blue"],
+        "l_bumper": None,
+        "r_bumper": capcom_classic["green"],
+        "l_trigger": None,
+        "r_trigger": capcom_classic["green"],
+        "variants": only_classic,
+    },
+    "mvc": { # brg
+        "button_a": capcom_classic["blue"],
+        "button_b": capcom_classic["red"],
+        "button_x": capcom_classic["blue"],
+        "button_y": capcom_classic["red"],
+        "l_bumper": None,
+        "r_bumper": capcom_classic["green"],
+        "l_trigger": None,
+        "r_trigger": capcom_classic["green"],
+        "variants": only_classic,
+    },
+    "color_coded": {
+        "button_a": capcom_classic["blue"],
+        "button_b": capcom_classic["blue"],
+        "button_x": capcom_classic["red"],
+        "button_y": capcom_classic["red"],
+        "l_bumper": None,
+        "r_bumper": capcom_classic["green"],
+        "l_trigger": None,
+        "r_trigger": capcom_classic["green"],
+        "variants": all_non_specific_layouts,
+    },
+    "operators_special": {
+        "button_a": alt_buttons["yolk_yellow"],
+        "button_b": alt_buttons["mint_green"],
+        "button_x": alt_buttons["yolk_yellow"],
+        "button_y": alt_buttons["mint_green"],
+        "l_bumper": None,
+        "r_bumper": alt_buttons["sky_blue"],
+        "l_trigger": None,
+        "r_trigger": alt_buttons["sky_blue"],
+        "variants": all_non_specific_layouts,
+    },
+    "operators_alt": {
+        "button_a": alt_buttons["yolk_yellow"],
+        "button_b": alt_buttons["sky_blue"],
+        "button_x": alt_buttons["yolk_yellow"],
+        "button_y": alt_buttons["sky_blue"],
+        "l_bumper": None,
+        "r_bumper": alt_buttons["mint_green"],
+        "l_trigger": None,
+        "r_trigger": alt_buttons["mint_green"],
+        "variants": all_non_specific_layouts,
+    },
+    "operator_coded": {
+        "button_a": alt_buttons["sky_blue"],
+        "button_b": alt_buttons["sky_blue"],
+        "button_x": alt_buttons["yolk_yellow"],
+        "button_y": alt_buttons["yolk_yellow"],
+        "l_bumper": None,
+        "r_bumper": alt_buttons["mint_green"],
+        "l_trigger": None,
+        "r_trigger": alt_buttons["mint_green"],
+        "variants": all_non_specific_layouts,
+    }
+}

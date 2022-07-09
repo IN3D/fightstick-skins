@@ -1,0 +1,242 @@
+.controller.fight-stick {
+  background: none;
+}
+.controller.fight-stick .arrows {
+  display: none;
+}
+.controller.fight-stick .quadrant {
+  display: none;
+}
+.controller.fight-stick .abxy {
+  bottom: 112px;
+  left: 442px;
+}
+.controller.fight-stick .abxy .button { /* anchor point */ }
+.controller.fight-stick .abxy .button.a {
+  width: 135px;
+  height: 135px;
+  border: 0;
+  outline: none;
+  background-color: #95cae5;
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+  box-shadow: inset 0 4.21875px 0 #a9d4ea, inset 0 -4.21875px 0 #81c0e0, inset 0 0 0 4.21875px #89c4e2, inset 0 0 0 11.25px #95cae5, inset 0 0 0 13.5px #43a1d1, inset 0 0 0 14.6739130435px #184a63, inset 0 0 0 18px rgba(210, 233, 244, 0.7), inset 0 0 0 24.5454545455px #95cae5, inset 0 54px 18px #81c0e0, inset 0 0 13.5px 22.5px #6cb6db, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  left: 18px;
+  bottom: -6px;
+}
+.controller.fight-stick .abxy .button.a:after {
+  content: "";
+  position: relative;
+  bottom: -13px;
+  left: 13px;
+  display: block;
+  width: 108px;
+  height: 108px;
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 9px;
+  border-radius: 50%;
+  transition-duration: 20ms;
+}
+.controller.fight-stick .abxy .button.a:active, .controller.fight-stick .abxy .button.a.pressed {
+  -webkit-filter: none !important;
+  transform: none !important;
+  box-shadow: inset 0 4.21875px 0 #9fcfe8, inset 0 -4.21875px 0 #6cb6db, inset 0 0 0 4.21875px #89c4e2, inset 0 0 0 11.25px #95cae5, inset 0 0 0 13.5px #22688c, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(190, 222, 239, 0.2), inset 0 0 0 24.5454545455px #64b1d9, inset 0 54px 18px #53a9d5, inset 0 0 13.5px 22.5px #2c87b5, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #70b8dc;
+}
+.controller.fight-stick .abxy .button.a:active:after, .controller.fight-stick .abxy .button.a.pressed:after {
+  bottom: 15.75px;
+  border-width: 0;
+}
+.controller.fight-stick .abxy .button.b {
+  width: 135px;
+  height: 135px;
+  border: 0;
+  outline: none;
+  background-color: #54bce5;
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+  box-shadow: inset 0 4.21875px 0 #6ac5e8, inset 0 -4.21875px 0 #3eb3e2, inset 0 0 0 4.21875px #47b7e3, inset 0 0 0 11.25px #54bce5, inset 0 0 0 13.5px #1c8bb7, inset 0 0 0 14.6739130435px #082632, inset 0 0 0 18px rgba(150, 214, 239, 0.7), inset 0 0 0 24.5454545455px #54bce5, inset 0 54px 18px #3eb3e2, inset 0 0 13.5px 22.5px #28abde, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  right: 8px;
+  bottom: 49px;
+}
+.controller.fight-stick .abxy .button.b:after {
+  content: "";
+  position: relative;
+  bottom: -13px;
+  left: 13px;
+  display: block;
+  width: 108px;
+  height: 108px;
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 9px;
+  border-radius: 50%;
+  transition-duration: 20ms;
+}
+.controller.fight-stick .abxy .button.b:active, .controller.fight-stick .abxy .button.b.pressed {
+  -webkit-filter: none !important;
+  transform: none !important;
+  box-shadow: inset 0 4.21875px 0 #5fc0e7, inset 0 -4.21875px 0 #28abde, inset 0 0 0 4.21875px #47b7e3, inset 0 0 0 11.25px #54bce5, inset 0 0 0 13.5px #0e485f, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(128, 205, 236, 0.2), inset 0 0 0 24.5454545455px #21a6db, inset 0 54px 18px #1f99c9, inset 0 0 13.5px 22.5px #156a8b, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #2cacdf;
+}
+.controller.fight-stick .abxy .button.b:active:after, .controller.fight-stick .abxy .button.b.pressed:after {
+  bottom: 15.75px;
+  border-width: 0;
+}
+.controller.fight-stick .abxy .button.x {
+  width: 135px;
+  height: 135px;
+  border: 0;
+  outline: none;
+  background-color: #e5d085;
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+  box-shadow: inset 0 4.21875px 0 #e9d89a, inset 0 -4.21875px 0 #e1c870, inset 0 0 0 4.21875px #e2cb78, inset 0 0 0 11.25px #e5d085, inset 0 0 0 13.5px #d3b031, inset 0 0 0 14.6739130435px #584913, inset 0 0 0 18px rgba(242, 232, 196, 0.7), inset 0 0 0 24.5454545455px #e5d085, inset 0 54px 18px #e1c870, inset 0 0 13.5px 22.5px #dcc05b, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+}
+.controller.fight-stick .abxy .button.x:after {
+  content: "";
+  position: relative;
+  bottom: -13px;
+  left: 13px;
+  display: block;
+  width: 108px;
+  height: 108px;
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 9px;
+  border-radius: 50%;
+  transition-duration: 20ms;
+}
+.controller.fight-stick .abxy .button.x:active, .controller.fight-stick .abxy .button.x.pressed {
+  -webkit-filter: none !important;
+  transform: none !important;
+  box-shadow: inset 0 4.21875px 0 #e7d490, inset 0 -4.21875px 0 #dcc05b, inset 0 0 0 4.21875px #e2cb78, inset 0 0 0 11.25px #e5d085, inset 0 0 0 13.5px #826c1c, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(238, 224, 175, 0.2), inset 0 0 0 24.5454545455px #dabd53, inset 0 54px 18px #d7b642, inset 0 0 13.5px 22.5px #ac8f25, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ddc15f;
+}
+.controller.fight-stick .abxy .button.x:active:after, .controller.fight-stick .abxy .button.x.pressed:after {
+  bottom: 15.75px;
+  border-width: 0;
+}
+.controller.fight-stick .abxy .button.y {
+  width: 135px;
+  height: 135px;
+  border: 0;
+  outline: none;
+  background-color: #f2c500;
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+  box-shadow: inset 0 4.21875px 0 #ffd20d, inset 0 -4.21875px 0 #d9b000, inset 0 0 0 4.21875px #e3b900, inset 0 0 0 11.25px #f2c500, inset 0 0 0 13.5px #8c7200, inset 0 0 0 14.6739130435px black, inset 0 0 0 18px rgba(255, 219, 64, 0.7), inset 0 0 0 24.5454545455px #f2c500, inset 0 54px 18px #d9b000, inset 0 0 13.5px 22.5px #bf9b00, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  right: -8px;
+  top: 12px;
+}
+.controller.fight-stick .abxy .button.y:after {
+  content: "";
+  position: relative;
+  bottom: -13px;
+  left: 13px;
+  display: block;
+  width: 108px;
+  height: 108px;
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 9px;
+  border-radius: 50%;
+  transition-duration: 20ms;
+}
+.controller.fight-stick .abxy .button.y:active, .controller.fight-stick .abxy .button.y.pressed {
+  -webkit-filter: none !important;
+  transform: none !important;
+  box-shadow: inset 0 4.21875px 0 #ffcf00, inset 0 -4.21875px 0 #bf9b00, inset 0 0 0 4.21875px #e3b900, inset 0 0 0 11.25px #f2c500, inset 0 0 0 13.5px #261f00, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(255, 215, 38, 0.2), inset 0 0 0 24.5454545455px #b59300, inset 0 54px 18px #a08300, inset 0 0 13.5px 22.5px #594800, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #c4a000;
+}
+.controller.fight-stick .abxy .button.y:active:after, .controller.fight-stick .abxy .button.y.pressed:after {
+  bottom: 15.75px;
+  border-width: 0;
+}
+.controller.fight-stick .triggers {
+  right: 29px;
+  top: 259px;
+}
+.controller.fight-stick .triggers .trigger-button { /* anchor */ }
+.controller.fight-stick .triggers .trigger-button.left {
+  display: none;
+  bottom: 13px;
+  right: 33px;
+}
+.controller.fight-stick .triggers .trigger-button.right {
+  width: 135px;
+  height: 135px;
+  border: 0;
+  outline: none;
+  background-color: #00a3ea;
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+  box-shadow: inset 0 4.21875px 0 #05b3ff, inset 0 -4.21875px 0 #0091d1, inset 0 0 0 4.21875px #0098db, inset 0 0 0 11.25px #00a3ea, inset 0 0 0 13.5px #005c84, inset 0 0 0 14.6739130435px black, inset 0 0 0 18px rgba(56, 194, 255, 0.7), inset 0 0 0 24.5454545455px #00a3ea, inset 0 54px 18px #0091d1, inset 0 0 13.5px 22.5px #007fb7, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+}
+.controller.fight-stick .triggers .trigger-button.right:after {
+  content: "";
+  position: relative;
+  bottom: -13px;
+  left: 13px;
+  display: block;
+  width: 108px;
+  height: 108px;
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 9px;
+  border-radius: 50%;
+  transition-duration: 20ms;
+}
+.controller.fight-stick .triggers .trigger-button.right:active, .controller.fight-stick .triggers .trigger-button.right.pressed {
+  -webkit-filter: none !important;
+  transform: none !important;
+  box-shadow: inset 0 4.21875px 0 #00acf7, inset 0 -4.21875px 0 #007fb7, inset 0 0 0 4.21875px #0098db, inset 0 0 0 11.25px #00a3ea, inset 0 0 0 13.5px #00151e, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(30, 187, 255, 0.2), inset 0 0 0 24.5454545455px #0078ad, inset 0 54px 18px #006a98, inset 0 0 13.5px 22.5px #003851, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #0083bc;
+}
+.controller.fight-stick .triggers .trigger-button.right:active:after, .controller.fight-stick .triggers .trigger-button.right.pressed:after {
+  bottom: 15.75px;
+  border-width: 0;
+}
+.controller.fight-stick .bumpers {
+  right: 44px;
+  top: 84px;
+}
+.controller.fight-stick .bumpers .bumper { /* anchor */ }
+.controller.fight-stick .bumpers .bumper.left {
+  display: none;
+  bottom: 13px;
+  right: 2px;
+}
+.controller.fight-stick .bumpers .bumper.right {
+  width: 135px;
+  height: 135px;
+  border: 0;
+  outline: none;
+  background-color: #f39800;
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+  box-shadow: inset 0 4.21875px 0 #ffa50e, inset 0 -4.21875px 0 #da8800, inset 0 0 0 4.21875px #e48e00, inset 0 0 0 11.25px #f39800, inset 0 0 0 13.5px #8d5800, inset 0 0 0 14.6739130435px black, inset 0 0 0 18px rgba(255, 184, 65, 0.7), inset 0 0 0 24.5454545455px #f39800, inset 0 54px 18px #da8800, inset 0 0 13.5px 22.5px #c07800, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+}
+.controller.fight-stick .bumpers .bumper.right:after {
+  content: "";
+  position: relative;
+  bottom: -13px;
+  left: 13px;
+  display: block;
+  width: 108px;
+  height: 108px;
+  border: 9px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 9px;
+  border-radius: 50%;
+  transition-duration: 20ms;
+}
+.controller.fight-stick .bumpers .bumper.right:active, .controller.fight-stick .bumpers .bumper.right.pressed {
+  -webkit-filter: none !important;
+  transform: none !important;
+  box-shadow: inset 0 4.21875px 0 #ffa001, inset 0 -4.21875px 0 #c07800, inset 0 0 0 4.21875px #e48e00, inset 0 0 0 11.25px #f39800, inset 0 0 0 13.5px #271800, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(255, 174, 39, 0.2), inset 0 0 0 24.5454545455px #b67200, inset 0 54px 18px #a16500, inset 0 0 13.5px 22.5px #5a3800, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #c57b00;
+}
+.controller.fight-stick .bumpers .bumper.right:active:after, .controller.fight-stick .bumpers .bumper.right.pressed:after {
+  bottom: 15.75px;
+  border-width: 0;
+}
+.controller.fight-stick .fight-stick .fstick {
+  top: 157px;
+  left: 42px;
+}
