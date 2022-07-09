@@ -66,7 +66,7 @@ dustloop = {
         "r_trigger": generic_buttons["white"],
         "variants": remotely_modern,
     },
-    "wiki_type_2": {
+    "type_2": {
         "button_a": buttons["d"],
         "button_b": None,
         "button_x": buttons["a"],
