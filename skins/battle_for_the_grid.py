@@ -2,12 +2,12 @@ from layouts import remotely_modern
 from skins.colors import generic_buttons
 
 buttons = {
-    "l": "#47f5e0",
+    "l": "#28ccb3",
     "m": "#2eb600",
     "h": "#d8cd29",
     "s": "#c10d01",
     "d": "#8d1ca1",
-    "a": "#b87a00",
+    "a": "#e0930f",
 }
 
 bftg = {
