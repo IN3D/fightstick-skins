@@ -4,8 +4,10 @@ generic_buttons = {
 }
 
 capcom_classic = {
-    "red": "#cf2315",
+    "dark_red": "#cf2315",
+    "red": "#ea3023",
     "yellow": "#ffd507",
-    "blue": "#13479d",
+    "blue": "#145acc",
+    "navy": "#13479d",
     "green": "#129936",
 }

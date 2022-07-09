@@ -9,6 +9,12 @@ third_strike_alt = {
     "black": "#2e2e38",
 }
 
+sf4 = {
+    "blue": "#22a4e5",
+    "yellow": "#eddf23",
+    "red": "#e53a2d",
+}
+
 sf5 = {
     "lp": "#e5d085",
     "mp": "#f2c500",
@@ -75,25 +81,25 @@ street_fighter = {
         "variants": all_non_specific_layouts,
     },
     "sf4": {
-        "button_a": capcom_classic["blue"],
-        "button_b": capcom_classic["yellow"],
-        "button_x": capcom_classic["blue"],
-        "button_y": capcom_classic["yellow"],
+        "button_a": sf4["blue"],
+        "button_b": sf4["yellow"],
+        "button_x": sf4["blue"],
+        "button_y": sf4["yellow"],
         "l_bumper": None,
-        "r_bumper": capcom_classic["red"],
+        "r_bumper": sf4["red"],
         "l_trigger": None,
-        "r_trigger": capcom_classic["red"],
+        "r_trigger": sf4["red"],
         "variants": all_non_specific_layouts,
     },
     "sf4_full": {
-        "button_a": capcom_classic["blue"],
-        "button_b": capcom_classic["yellow"],
-        "button_x": capcom_classic["blue"],
-        "button_y": capcom_classic["yellow"],
+        "button_a": sf4["blue"],
+        "button_b": sf4["yellow"],
+        "button_x": sf4["blue"],
+        "button_y": sf4["yellow"],
         "l_bumper": generic_buttons["white"],
-        "r_bumper": capcom_classic["red"],
+        "r_bumper": sf4["red"],
         "l_trigger": generic_buttons["white"],
-        "r_trigger": capcom_classic["red"],
+        "r_trigger": sf4["red"],
         "variants": all_non_specific_layouts,
     },
     "sf5": {

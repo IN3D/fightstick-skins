@@ -101,6 +101,14 @@
   right: 33px;
 }
 .controller.fight-stick .triggers .trigger-button.right {
+  display: none;
+}
+.controller.fight-stick .bumpers {
+  right: 55px;
+  top: 77px;
+}
+.controller.fight-stick .bumpers .bumper { /* anchor */ }
+.controller.fight-stick .bumpers .bumper.left {
   width: 135px;
   height: 135px;
   border: 0;
@@ -109,8 +117,10 @@
   border-radius: 50%;
   transition: box-shadow 200ms;
   box-shadow: inset 0 4.21875px 0 #47b1d1, inset 0 -4.21875px 0 #2e97b8, inset 0 0 0 4.21875px #309ec0, inset 0 0 0 11.25px #33a8cc, inset 0 0 0 13.5px #1f657a, inset 0 0 0 14.6739130435px black, inset 0 0 0 18px rgba(112, 194, 219, 0.7), inset 0 0 0 24.5454545455px #33a8cc, inset 0 54px 18px #2e97b8, inset 0 0 13.5px 22.5px #2986a3, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  bottom: 22px;
+  right: 2px;
 }
-.controller.fight-stick .triggers .trigger-button.right:after {
+.controller.fight-stick .bumpers .bumper.left:after {
   content: "";
   position: relative;
   bottom: -13px;
@@ -123,25 +133,15 @@
   border-radius: 50%;
   transition-duration: 20ms;
 }
-.controller.fight-stick .triggers .trigger-button.right:active, .controller.fight-stick .triggers .trigger-button.right.pressed {
+.controller.fight-stick .bumpers .bumper.left:active, .controller.fight-stick .bumpers .bumper.left.pressed {
   -webkit-filter: none !important;
   transform: none !important;
   box-shadow: inset 0 4.21875px 0 #3daccf, inset 0 -4.21875px 0 #2986a3, inset 0 0 0 4.21875px #309ec0, inset 0 0 0 11.25px #33a8cc, inset 0 0 0 13.5px #0a2229, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(92, 185, 214, 0.2), inset 0 0 0 24.5454545455px #27809b, inset 0 54px 18px #23728b, inset 0 0 13.5px 22.5px #144352, 0 6.75px 0 rgba(0, 0, 0, 0.3);
   background-color: #2a8aa7;
 }
-.controller.fight-stick .triggers .trigger-button.right:active:after, .controller.fight-stick .triggers .trigger-button.right.pressed:after {
+.controller.fight-stick .bumpers .bumper.left:active:after, .controller.fight-stick .bumpers .bumper.left.pressed:after {
   bottom: 15.75px;
   border-width: 0;
-}
-.controller.fight-stick .bumpers {
-  right: 55px;
-  top: 77px;
-}
-.controller.fight-stick .bumpers .bumper { /* anchor */ }
-.controller.fight-stick .bumpers .bumper.left {
-  display: none;
-  bottom: 22px;
-  right: 2px;
 }
 .controller.fight-stick .bumpers .bumper.right {
   width: 135px;
