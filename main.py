@@ -41,7 +41,7 @@ def run():
     print(f"{bcolors.BOLD}RUN STARTING...{bcolors.ENDC}")
 
     for skin_set_name, skin_set in manifest.items():
-        print(f"{bcolors.BOLD}========== processing set: {bcolors.OKGREEN}{skin_set_name}{bcolors.ENDC} {bcolors.BOLD}============{bcolors.ENDC}")
+        print(f"Processing set: {bcolors.OKGREEN}{skin_set_name}{bcolors.ENDC}")
 
         for skin_name, skin in skin_set.items():
             set_dir = f"scss/{skin_set_name}/{skin_name}"
@@ -51,7 +51,6 @@ def run():
             if variants_for_skin is not None:
                 for variant in variants_for_skin:
                     file_name = f"{set_dir}/{variant}.scss"
-                    print(f"creating file: {bcolors.OKGREEN}{file_name}{bcolors.ENDC}")
                     layout = layout_for_variant(variant)
                     processed_skin = {k: button(v) for k, v in skin.items()}
                     props = processed_skin | { 'layout': layout, 'name': skin_set_name }
