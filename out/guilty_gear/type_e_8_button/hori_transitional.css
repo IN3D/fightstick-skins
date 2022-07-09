@@ -17,10 +17,10 @@
   height: 135px;
   border: 0;
   outline: none;
-  background-color: #ed86a6;
+  background-color: #51cc99;
   border-radius: 50%;
   transition: box-shadow 200ms;
-  box-shadow: inset 0 4.21875px 0 #f09cb6, inset 0 -4.21875px 0 #ea7096, inset 0 0 0 4.21875px #eb799c, inset 0 0 0 11.25px #ed86a6, inset 0 0 0 13.5px #e02d65, inset 0 0 0 14.6739130435px #650f2a, inset 0 0 0 18px rgba(247, 201, 215, 0.7), inset 0 0 0 24.5454545455px #ed86a6, inset 0 54px 18px #ea7096, inset 0 0 13.5px 22.5px #e65a85, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 4.21875px 0 #65d2a5, inset 0 -4.21875px 0 #3dc68d, inset 0 0 0 4.21875px #45c992, inset 0 0 0 11.25px #51cc99, inset 0 0 0 13.5px #298e64, inset 0 0 0 14.6739130435px #071710, inset 0 0 0 18px rgba(140, 221, 188, 0.7), inset 0 0 0 24.5454545455px #51cc99, inset 0 54px 18px #3dc68d, inset 0 0 13.5px 22.5px #35b580, 0 6.75px 0 rgba(0, 0, 0, 0.3);
   left: 33px;
   bottom: 6px;
 }
@@ -40,8 +40,8 @@
 .controller.fight-stick .abxy .button.a:active, .controller.fight-stick .abxy .button.a.pressed {
   -webkit-filter: none !important;
   transform: none !important;
-  box-shadow: inset 0 4.21875px 0 #ef91ae, inset 0 -4.21875px 0 #e65a85, inset 0 0 0 4.21875px #eb799c, inset 0 0 0 11.25px #ed86a6, inset 0 0 0 13.5px #91163c, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(244, 178, 199, 0.2), inset 0 0 0 24.5454545455px #e5517f, inset 0 54px 18px #e23f72, inset 0 0 13.5px 22.5px #be1c4e, 0 6.75px 0 rgba(0, 0, 0, 0.3);
-  background-color: #e75e89;
+  box-shadow: inset 0 4.21875px 0 #5bcf9f, inset 0 -4.21875px 0 #35b580, inset 0 0 0 4.21875px #45c992, inset 0 0 0 11.25px #51cc99, inset 0 0 0 13.5px #123f2c, inset 0 0 0 16.875px black, inset 0 0 0 18px rgba(120, 216, 176, 0.2), inset 0 0 0 24.5454545455px #33ad7a, inset 0 54px 18px #2e9d6f, inset 0 0 13.5px 22.5px #1e6648, 0 6.75px 0 rgba(0, 0, 0, 0.3);
+  background-color: #36b983;
 }
 .controller.fight-stick .abxy .button.a:active:after, .controller.fight-stick .abxy .button.a.pressed:after {
   bottom: 15.75px;

@@ -5,7 +5,7 @@ from skins.colors import generic_buttons
 buttons = {
     "punch": "#ed86a6",
     "kick": "#5188c4",
-    "slash": "#ed86a6",
+    "slash": "#51cc99",
     "heavy_slash": "#e23e49",
     "dust": "#f47f20",
     "roman_cancel": "#e23f8e",

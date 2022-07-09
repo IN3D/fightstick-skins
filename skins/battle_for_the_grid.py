@@ -38,10 +38,10 @@ bftg = {
         "button_b": buttons["a"],
         "button_x": buttons["l"],
         "button_y": buttons["m"],
-        "l_bumper": buttons["a"],
+        "l_bumper": None,
         "r_bumper": buttons["h"],
         "l_trigger": None,
-        "r_trigger": None,
+        "r_trigger": buttons["a"],
         "variants": remotely_modern,
     },
     "anime_8_button": {
