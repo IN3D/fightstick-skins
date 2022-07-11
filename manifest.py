@@ -4,6 +4,7 @@ from skins.bloody_roar import bloody_roar
 from skins.capcom_cabinets import capcom
 from skins.dbfz import dbfz
 from skins.dead_or_alive import doa
+from skins.dnf_duel import dnf
 from skins.dreamcast import dreamcast
 from skins.dustloop import dustloop
 from skins.fantasy_strike import fantasy_strike
@@ -28,6 +29,7 @@ manifest = {
     "dbfz": dbfz,
     "dead_or_alive": doa,
     "dreamcast": dreamcast,
+    "dnf_duel": dnf,
     "dustloop": dustloop,
     "fantasy_strike": fantasy_strike,
     "guilty_gear": guilty_gear,
