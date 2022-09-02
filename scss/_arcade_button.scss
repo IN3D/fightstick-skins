@@ -1,63 +1,7 @@
-@use "sass:math";
-
-@mixin arcade-button($push-color, $push-size: 135px) {
-  width: $push-size;
-  height: $push-size;
-  border: 0;
-  outline: none;
-  background-color: $push-color;
-  border-radius: 50%;
-  transition: box-shadow 200ms;
-  box-shadow:
-    inset 0 math.div($push-size, 32) 0 lighten($push-color, 5%),
-    inset 0 math.div(-$push-size, 32) 0 darken($push-color, 5%),
-    inset 0 0 0 math.div($push-size, 32) darken($push-color, 3%),
-    inset 0 0 0 math.div($push-size, 12) $push-color,
-    inset 0 0 0 math.div($push-size, 10) darken($push-color, 20%),
-    inset 0 0 0 math.div($push-size, 9.2) darken($push-color, 50%),
-    inset 0 0 0 math.div($push-size, 7.5) transparentize(lighten($push-color, 15%), .3%),
-    inset 0 0 0 math.div($push-size, 5.5) $push-color,
-    inset 0 math.div($push-size, 2.5) math.div($push-size, 7.5) darken($push-color, 5%),
-    inset 0 0 math.div($push-size, 10) math.div($push-size, 6) darken($push-color, 10%),
-    0 math.div($push-size, 20) 0 rgba(0, 0, 0, .3);
-
-  &:after {
-    content: '';
-    position: relative;
-    bottom: math.floor(math.div($push-size, -11));
-    left: math.floor(math.div($push-size, 10));
-    display: block;
-    width: math.div($push-size, 1.25);
-    height: math.div($push-size, 1.25);
-    border: math.div($push-size, 15) solid rgba(0, 0, 0, .3);
-    border-width: 0 0 math.div($push-size, 15);
-    border-radius: 50%;
-    transition-duration: 20ms;
-  }
-
-  &:active,
-  &.pressed {
-    // Unset gamepadviewer defaults
-    -webkit-filter: none !important;
-    transform: none !important;
-
-    box-shadow:
-      inset 0 math.div($push-size, 32) 0 lighten($push-color, 2.5%),
-      inset 0 math.div(-$push-size, 32) 0 darken($push-color, 10%),
-      inset 0 0 0 math.div($push-size, 32) darken($push-color, 3%),
-      inset 0 0 0 math.div($push-size, 12) $push-color,
-      inset 0 0 0 math.div($push-size, 10) darken($push-color, 40),
-      inset 0 0 0 math.div($push-size, 8) darken($push-color, 80%),
-      inset 0 0 0 math.div($push-size, 7.5) transparentize(lighten($push-color, 10%), .8),
-      inset 0 0 0 math.div($push-size, 5.5) darken($push-color, 12%),
-      inset 0 math.div($push-size, 2.5) math.div($push-size, 7.5) darken($push-color, 16%),
-      inset 0 0 math.div($push-size, 10) math.div($push-size, 6) darken($push-color, 30%),
-      0 math.div($push-size, 20) 0 rgba(0, 0, 0, .3);
-    background-color: darken($push-color, 9%);
-
-    &:after {
-      bottom: math.div($push-size, 20) + math.div($push-size, 15);
-      border-width: 0;
+@mixin arcade-button($push-color) {
+    &.pressed {
+        -webkit-filter: inherit;
+        filter: inherit;
+        background-color: $push-color;
     }
-  }
 }

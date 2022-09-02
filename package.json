@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"What are you trying to test exactly??\" && exit 0",
-    "build": "sass --no-source-map scss:out"
+    "build": "sass --no-source-map scss:out",
+    "minify": "cleancss -O2 --batch --batch-suffix '' out/**/*.css"
   },
   "author": "Eric Hopkins",
   "license": "ISC",
   "dependencies": {
+    "clean-css-cli": "^5.6.0",
     "sass": "^1.52.3"
   }
 }
